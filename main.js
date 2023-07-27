@@ -84,7 +84,7 @@ scene.add(cube)
 /*
 * Lights
 */
-const ambient_light = new THREE.AmbientLight("#E6A409", 0.2)
+const ambient_light = new THREE.AmbientLight("#38618B", 0.2)
 scene.add(ambient_light)
 
 /*
@@ -121,7 +121,7 @@ const init_walls = (cnv) => {
   canvasTexture = new THREE.CanvasTexture(cnv)
   const wall_material = new THREE.MeshPhysicalMaterial(
     { 
-      color: "#E6A409",
+      color: "#FFD301",
       map: canvasTexture,
     }
   )
